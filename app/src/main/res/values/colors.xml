@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Web light theme colors (from app/globals.css @theme inline) -->
+    <color name="web_background">#FFFFFF</color>
+    <color name="web_foreground">#1A1A1A</color>
+    <color name="web_card">#F9F9F9</color>
+    <color name="web_card_foreground">#1A1A1A</color>
+    <color name="web_primary">#3B82F6</color>
+    <color name="web_on_primary">#FFFFFF</color>
+    <color name="web_secondary">#E5E7EB</color>
+    <color name="web_on_secondary">#1A1A1A</color>
+    <color name="web_accent">#F59E0B</color>
+    <color name="web_muted">#D1D5DB</color>
+    <color name="web_muted_foreground">#6B7280</color>
+    <color name="web_border">#E5E7EB</color>
+
+    <!-- Material theme tokens mapped to web colors -->
+    <color name="colorPrimary">@color/web_primary</color>
+    <color name="colorOnPrimary">@color/web_on_primary</color>
+    <color name="colorSecondary">@color/web_secondary</color>
+    <color name="colorOnSecondary">@color/web_on_secondary</color>
+    <color name="colorBackground">@color/web_background</color>
+    <color name="colorOnBackground">@color/web_foreground</color>
+    <color name="colorSurface">@color/web_card</color>
+    <color name="colorOnSurface">@color/web_card_foreground</color>
+    <color name="colorOutline">@color/web_border</color>
+    <color name="colorTertiary">@color/web_accent</color>
+</resources>
+
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

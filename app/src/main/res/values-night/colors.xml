@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Web dark theme colors (from app/globals.css @media dark) -->
+    <color name="web_background">#0F172A</color>
+    <color name="web_foreground">#F1F5F9</color>
+    <color name="web_card">#1E293B</color>
+    <color name="web_card_foreground">#F1F5F9</color>
+    <color name="web_primary">#3B82F6</color>
+    <color name="web_on_primary">#FFFFFF</color>
+    <color name="web_secondary">#334155</color>
+    <color name="web_on_secondary">#F1F5F9</color>
+    <color name="web_accent">#F59E0B</color>
+    <color name="web_muted">#475569</color>
+    <color name="web_muted_foreground">#94A3B8</color>
+    <color name="web_border">#334155</color>
+
+    <!-- Material theme tokens mapped to web colors -->
+    <color name="colorPrimary">@color/web_primary</color>
+    <color name="colorOnPrimary">@color/web_on_primary</color>
+    <color name="colorSecondary">@color/web_secondary</color>
+    <color name="colorOnSecondary">@color/web_on_secondary</color>
+    <color name="colorBackground">@color/web_background</color>
+    <color name="colorOnBackground">@color/web_foreground</color>
+    <color name="colorSurface">@color/web_card</color>
+    <color name="colorOnSurface">@color/web_card_foreground</color>
+    <color name="colorOutline">@color/web_border</color>
+    <color name="colorTertiary">@color/web_accent</color>
+</resources>
+
+
