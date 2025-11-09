@@ -46,7 +46,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:gravity="space_between"
                 android:layout_marginTop="6dp">
 
                 <TextView
@@ -55,6 +54,11 @@
                     android:layout_height="wrap_content"
                     android:text="★ 4.8"
                     android:textSize="12sp"/>
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
 
                 <TextView
                     android:id="@+id/tvPrice"
@@ -77,5 +81,3 @@
     </LinearLayout>
 
 </com.google.android.material.card.MaterialCardView>
-
-

@@ -88,6 +88,11 @@
                     android:text="Slots - 2024-12-20"
                     android:textStyle="bold"/>
 
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/btnAddSlot"
                     android:layout_width="wrap_content"
