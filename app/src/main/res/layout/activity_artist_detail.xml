@@ -15,7 +15,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="◄ Quay lại"
-            android:textColor="@color/teal_700"
+            android:textColor="#000000"
             android:textSize="14sp"
             android:layout_marginBottom="12dp"/>
 
@@ -91,7 +91,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="2.0M đ/giờ"
-                        android:textColor="@color/teal_700"
+                        android:textColor="#000000"
                         android:textStyle="bold"
                         android:textSize="16sp"
                         android:layout_marginTop="4dp"/>
@@ -129,7 +129,7 @@
                 <GridView
                     android:id="@+id/gridSlots"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="200dp"
                     android:numColumns="2"
                     android:horizontalSpacing="8dp"
                     android:verticalSpacing="8dp"
@@ -167,5 +167,3 @@
     </LinearLayout>
 
 </ScrollView>
-
-
