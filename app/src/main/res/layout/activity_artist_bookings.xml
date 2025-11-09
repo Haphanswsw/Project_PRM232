@@ -1,39 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="16dp"
+    tools:context=".ui.bookings.ArtistBookingsActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Quản lý Booking"
+        android:text="Quản lý Yêu cầu Đặt lịch"
         android:textStyle="bold"
         android:textSize="22sp"
-        android:layout_marginBottom="4dp"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Xem và quản lý các booking của bạn"
-        android:textColor="@android:color/darker_gray"
         android:layout_marginBottom="12dp"/>
 
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/tabLayout"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        app:tabIndicatorColor="?attr/colorPrimary"
+        app:tabTextColor="?attr/colorOnSurface"/>
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rvArtistBookings"
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPager"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"
-        android:layout_marginTop="8dp"
-        tools:listitem="@layout/item_booking_row"/>
+        android:layout_weight="1"/>
 
 </LinearLayout>
-
-

@@ -60,7 +60,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:gravity="space_between"
                 android:layout_marginBottom="8dp">
 
                 <TextView
@@ -69,6 +68,11 @@
                     android:layout_height="wrap_content"
                     android:text="Slots - 2024-12-20"
                     android:textStyle="bold"/>
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
 
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/btnAddSlot"
@@ -158,5 +162,3 @@
     </LinearLayout>
 
 </LinearLayout>
-
-
